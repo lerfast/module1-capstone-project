@@ -17,46 +17,73 @@
 </head>
 
 <body>
-  <nav class="navbar bg-bdy-tertiary fixd-top">
-    <div class="container-fluid">
-      <span class="navbar-toggler***" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
-        aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </span>
-      <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-        <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img src="./images/Logo.png" alt=""></h5>
-          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
-        <div class="offcanvas-body">
-          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Program</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Join</a>
-            </li>
+  <div class="hidding-nav">
+    <nav class="navbar bg-bdy-tertiary fixd-top">
+      <div class="container-fluid">
+        <span class="navbar-toggler***" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </span>
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img src="./images/Logo.png" alt=""></h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Program</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Join</a>
+              </li>
 
-            <li class="nav-item">
-              <a class="nav-link" href="#">Sponsor</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">News</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">CC Campaign</a>
-            </li>
-          </ul>
-          <form class="d-flex mt-3" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sponsor</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">News</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">CC Campaign</a>
+              </li>
+            </ul>
+            <form class="d-flex mt-3" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
         </div>
       </div>
-    </div>
+    </nav>
+
+  </div>
+
+  <nav class="nav-desktop2 ">
+
+    <a href="#portfolio"><i class="bi bi-facebook"></i></a>
+    <a href="#portfolio"><i class="bi bi-twitter"></i></a>
+    <a href="#portfolio">Logout</a>
+    <a href="#about">Mypage</a>
+    <a href="#contact">Korean</a>
+
+
+
+  </nav>
+  <nav class="nav-desktop ">
+    <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img src="./images/Logo.png" alt=""></h5>
+    <a href="#portfolio">About </a>
+    <a href="#about">Program</a>
+    <a href="#contact">Join</a>
+    <a href="#portfolio">Sponsor</a>
+    <a href="#portfolio">News</a>
+    <a href="#portfolio">CC Campaign</a>
+
+
   </nav>
   <section class="background-intro">
     <div class="container-md cocogoose">
@@ -82,26 +109,38 @@
 
       <div class="container text-center about-main-programs">
 
-        <div class="column col-12 col-md-4">
+        <div class="column ">
           <i><img src="./images/icons8-html-5-48.png" alt=""></i>
           <p class="about-title">Learn HTML</p>
-          <p class="about-content">Learn about HTML from scratch, how to build web pages, learn about web browsers and more!!!</p>
+          <p class="about-content">Learn about HTML from scratch, how to build web pages, learn about web browsers and
+            more!!!</p>
         </div>
 
-        <div class="column col-12 col-md-4">
+        <div class="column ">
           <i><img src="./images/icons8-css3-48.png" alt=""></i>
           <p class="about-title">Learn CSS</p>
-          <p class="about-content">Learn about CSS from scratch, how to put styles to web pages, learn about frameworks and more!!!</p>
+          <p class="about-content">Learn about CSS from scratch, how to put styles to web pages, learn about frameworks
+            and more!!!</p>
         </div>
 
-        <div class="column col-12 col-md-4">
+        <div class="column  ">
           <i><img src="./images/icons8-javascript-48.png" alt=""></i>
           <p class="about-title">Learn Javascript</p>
-          <p class="about-content">Learn about Javascript from scratch, the interaction of the web pages, learn about some different scripts and more!!!</p>
+          <p class="about-content">Learn about Javascript from scratch, the interaction of the web pages, learn about
+            some different scripts and more!!!</p>
         </div>
-        <div class="badges-contenedor">
-          <span class="badge text-bg-danger">Join to our 2023 program, right now!!!</span>
-        </div>       
+
+      </div>
+      <div class="hidding-p">
+        <a href="">
+          <p class="text-center"><strong>SEE THE HOLE PROGRAM</strong> </p>
+        </a>
+        
+
+      </div>
+
+      <div class="badges-contenedor text-center">
+        <span class="badge text-bg-danger">Join to our 2023 program, right now!!!</span>
       </div>
 
     </div>
@@ -109,105 +148,203 @@
 
   <section class="featured-speakers">
     <div class="container">
-      <p class="text-center"><strong>Featured Speakers </strong>  </p>
+      <p class="text-center"><strong>Featured Speakers </strong> </p>
       <hr>
-  
+
     </div>
+    <div class="accordion2">
+      <div class="container text-enter about-main-programs">
 
-    <div class="container text-enter about-main-programs">
+        <div class="column2 ">
+          <i><img class="speaker" src="./images/speaker1.png" alt=""></i>
+          <div class="speaker-content">
+            <h2>Yochai Benkler</h2>
+            <p class="about-title2">Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School</p>
+            <hr>
+            <p class="about-content">Benkler studies commons-bades peer production, and published his semnial book The
+              Wealth of Networks in 2006.</p>
+          </div>
 
-      <div class="column2 ">
-        <i><img class="speaker" src="./images/speaker1.png" alt=""></i>
-        <div class="speaker-content">
-          <h2>Yochai Benkler</h2>
-          <p class="about-title2">Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School</p>
-          <hr>
-          <p class="about-content">Benkler studies commons-bades peer production, and published his semnial book The Wealth of Networks in 2006.</p>
         </div>
-        
-      </div>
 
-      <div class="column2 ">
-        <i><img class="speaker" src="./images/speaker2.png" alt=""></i>
-        <div class="speaker-content">
-          <h2>SohYeong Noh</h2>
-          <p class="about-title2">Director of Art Centre Nabi and a board member of CC </p>
-          <hr>
-          <p class="about-content">Benkler studies commons-bades peer production, and published his semnial book The Wealth of Networks in 2006.</p>
+        <div class="column2 ">
+          <i><img class="speaker" src="./images/speaker2.png" alt=""></i>
+          <div class="speaker-content">
+            <h2>SohYeong Noh</h2>
+            <p class="about-title2">Director of Art Centre Nabi and a board member of CC </p>
+            <hr>
+            <p class="about-content">Benkler studies commons-bades peer production, and published his semnial book The
+              Wealth of Networks in 2006.</p>
+          </div>
+
         </div>
-        
-      </div>
 
-      <div class="accordion" id="accordionExample">
-    
-        <div class="accordion-item">
-          <h2 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-              More
-            </button>
-          </h2>
-          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              <div class="column2 ">
-                <i><img class="speaker" src="./images/speaker3.png" alt=""></i>
-                <div class="speaker-content">
-                  <h2>Lila Tretikov</h2>
-                  <p class="about-title2">Executive Director of the Wikimedia Foundation</p>
-                  <hr>
-                  <p class="about-content">Benkler studies commons-bades peer production, and published his semnial book The Wealth of Networks in 2006.</p>
+        <div class="accordion" id="accordionExample">
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                More
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <div class="column2 ">
+                  <i><img class="speaker" src="./images/speaker3.png" alt=""></i>
+                  <div class="speaker-content">
+                    <h2>Lila Tretikov</h2>
+                    <p class="about-title2">Executive Director of the Wikimedia Foundation</p>
+                    <hr>
+                    <p class="about-content">Benkler studies commons-bades peer production, and published his semnial
+                      book The Wealth of Networks in 2006.</p>
+                  </div>
+
                 </div>
-                
-              </div>
-        
-              <div class="column2 ">
-                <i><img class="speaker" src="./images/speaker4.png" alt=""></i>
-                <div class="speaker-content">
-                  <h2>Kilnam Chon</h2>
-                  <p class="about-title2">Web Page programmer</p>
-                  <hr>
-                  <p class="about-content">Benkler studies commons-bades peer production, and published his semnial book The Wealth of Networks in 2006.</p>
+
+                <div class="column2 ">
+                  <i><img class="speaker" src="./images/speaker4.png" alt=""></i>
+                  <div class="speaker-content">
+                    <h2>Kilnam Chon</h2>
+                    <p class="about-title2">Web Page programmer</p>
+                    <hr>
+                    <p class="about-content">Benkler studies commons-bades peer production, and published his semnial
+                      book The Wealth of Networks in 2006.</p>
+                  </div>
+
                 </div>
-                
-              </div>
-        
-              <div class="column2 ">
-                <i><img class="speaker" src="./images/speaker5.png" alt=""></i>
-                <div class="speaker-content">
-                  <h2>Julia Leda</h2>
-                  <p class="about-title2">President of Young Pirates of Europe</p>
-                  <hr>
-                  <p class="about-content">Benkler studies commons-bades peer production, and published his semnial book The Wealth of Networks in 2006.</p>
+
+                <div class="column2 ">
+                  <i><img class="speaker" src="./images/speaker5.png" alt=""></i>
+                  <div class="speaker-content">
+                    <h2>Julia Leda</h2>
+                    <p class="about-title2">President of Young Pirates of Europe</p>
+                    <hr>
+                    <p class="about-content">Benkler studies commons-bades peer production, and published his semnial
+                      book The Wealth of Networks in 2006.</p>
+                  </div>
+
                 </div>
-                
-              </div>
-        
-              <div class="column2 ">
-                <i><img class="speaker" src="./images/speaker6.png" alt=""></i>
-                <div class="speaker-content">
-                  <h2>Ryan Merkley</h2>
-                  <p class="about-title2">CEO of Creative Commons, ex COO of the Mozilla Foundation</p>
-                  <hr>
-                  <p class="about-content">Benkler studies commons-bades peer production, and published his semnial book The Wealth of Networks in 2006.</p>
+
+                <div class="column2 ">
+                  <i><img class="speaker" src="./images/speaker6.png" alt=""></i>
+                  <div class="speaker-content">
+                    <h2>Ryan Merkley</h2>
+                    <p class="about-title2">CEO of Creative Commons, ex COO of the Mozilla Foundation</p>
+                    <hr>
+                    <p class="about-content">Benkler studies commons-bades peer production, and published his semnial
+                      book The Wealth of Networks in 2006.</p>
+                  </div>
+
                 </div>
-                
               </div>
             </div>
           </div>
+
         </div>
-        
+
+
+
+        <div class="badges-contenedor">
+          <span class="badge text-bg-danger">Join to our 2023 program, right now!!!</span>
+        </div>
       </div>
 
-
-      
-      <div class="badges-contenedor">
-        <span class="badge text-bg-danger">Join to our 2023 program, right now!!!</span>
-      </div>       
     </div>
-  
-  
+
+
+
+    <div class="more-desktop">
+      <div class="container text-enter about-main-programs">
+
+        <div class="speaker-content1">
+          <div class="column2 ">
+            <i><img class="speaker" src="./images/speaker1.png" alt=""></i>
+            <div class="speaker-content">
+              <h2>Yochai Benkler</h2>
+              <p class="about-title2">Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School</p>
+              <hr>
+              <p class="about-content">Benkler studies commons-bades peer production, and published his semnial book The
+                Wealth of Networks in 2006.</p>
+            </div>
+
+          </div>
+
+          <div class="column2 ">
+            <i><img class="speaker" src="./images/speaker2.png" alt=""></i>
+            <div class="speaker-content">
+              <h2>SohYeong Noh</h2>
+              <p class="about-title2">Director of Art Centre Nabi and a board member of CC </p>
+              <hr>
+              <p class="about-content">Benkler studies commons-bades peer production, and published his semnial book The
+                Wealth of Networks in 2006.</p>
+            </div>
+
+          </div>
+
+          <div class="column2 ">
+            <i><img class="speaker" src="./images/speaker3.png" alt=""></i>
+            <div class="speaker-content">
+              <h2>Lila Tretikov</h2>
+              <p class="about-title2">Executive Director of the Wikimedia Foundation</p>
+              <hr>
+              <p class="about-content">Benkler studies commons-bades peer production, and published his semnial book The
+                Wealth of Networks in 2006.</p>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="speaker-content2">
+          <div class="column2 ">
+            <i><img class="speaker" src="./images/speaker4.png" alt=""></i>
+            <div class="speaker-content">
+              <h2>Kilnam Chon</h2>
+              <p class="about-title2">Web Page programmer</p>
+              <hr>
+              <p class="about-content">Benkler studies commons-bades peer production, and published his semnial book The
+                Wealth of Networks in 2006.</p>
+            </div>
+
+          </div>
+
+          <div class="column2 ">
+            <i><img class="speaker" src="./images/speaker5.png" alt=""></i>
+            <div class="speaker-content">
+              <h2>Julia Leda</h2>
+              <p class="about-title2">President of Young Pirates of Europe</p>
+              <hr>
+              <p class="about-content">Benkler studies commons-bades peer production, and published his semnial book The
+                Wealth of Networks in 2006.</p>
+            </div>
+
+          </div>
+
+          <div class="column2 ">
+            <i><img class="speaker" src="./images/speaker6.png" alt=""></i>
+            <div class="speaker-content">
+              <h2>Ryan Merkley</h2>
+              <p class="about-title2">CEO of Creative Commons, ex COO of the Mozilla Foundation</p>
+              <hr>
+              <p class="about-content">Benkler studies commons-bades peer production, and published his semnial book The
+                Wealth of Networks in 2006.</p>
+            </div>
+
+          </div>
+        </div>
+
+
+
+
+      </div>
+      <section>
+        <img class="logo-img" src="./images/picture4.png" alt="">
+    </section>
+    </div>
+
   </section>
 
-  
+
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"

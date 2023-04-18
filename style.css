@@ -33,6 +33,13 @@
   background-size: 100%;
 }
 
+.nav-desktop {
+  display: none;
+}
+.nav-desktop2 {
+  display: none;
+}
+
 .h2-intro {
   font-size: 23px;
   color: #ec5242;
@@ -115,6 +122,8 @@ background-color: #ffff;
   font-family: 'Lato', sans-serif;
 }
 
+
+
 .hr {
   width: 20%;
   border-top: 1px solid red;
@@ -124,4 +133,79 @@ background-color: #ffff;
   font-size: 20px;
   font-weight: bold;
   margin: 10px 0;
+}
+
+@media only screen and (min-width: 768px){
+  .nav-desktop {
+    display: flex;
+    justify-content: flex-end;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+    color: #344563;
+    gap: 3%;
+    background-color: #ffff;
+}
+.nav-desktop a {
+  background-color: #ffff;
+  text-decoration: none;
+  color: #344563;
+ 
+}
+
+.background-intro {
+  background: url(./images/background-desktop2.png) no-repeat;
+  background-size: 100%;
+}
+
+.nav-desktop2 {
+  display: flex;
+  justify-content: flex-end;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  align-items: center;
+  text-align: center;
+  color: #344563;
+  gap: 3%;
+  background-color: black;
+}
+.nav-desktop2 a {
+
+text-decoration: none;
+color: #ffff;
+
+}
+
+.hidding-nav {
+  display: none;
+}
+
+.about-main-programs {
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.accordion2{
+  display: none;
+}
+
+.badges-contenedor{
+  display: none;
+}
+
+}
+
+@media only screen and (max-width: 768px){
+
+.hidding-p{
+  display: none;
+}
 }
