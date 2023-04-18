@@ -23,6 +23,11 @@
   background-color: #d3d3d3;
 }
 
+.logo-img {
+  width: 100%;
+  height: 100%;
+}
+
 .background-intro {
   background: url(./images/background-mobile2.png) no-repeat;
   background-size: 100%;
@@ -43,6 +48,13 @@
   margin-inline: 10px;
   border: 2px solid #8080804d;
   background-color: #d3d3d3;
+}
+
+.containerpro-2 {
+  padding: 20px;
+  margin-inline: 10px;
+  border: 2px solid #8080804d;
+background-color: #ffff;
 }
 
 .cocogoose-font {
@@ -77,6 +89,10 @@
   flex-direction: row;
 }
 
+.p-intro-section{
+  font-family: 'Lato', sans-serif;
+  font-size: 37px;
+}
 .about-main-programs {
   display: flex;
   flex-direction: column;
@@ -99,7 +115,7 @@
   font-family: 'Lato', sans-serif;
 }
 
-.about hr {
+.hr {
   width: 20%;
   border-top: 1px solid red;
 }
