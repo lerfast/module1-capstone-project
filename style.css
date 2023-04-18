@@ -1,0 +1,111 @@
+@font-face {
+  font-family: 'Cocogoosetrial';
+  src: url('./fonts/Cocogoosetrial.eot');
+  src:
+    url('./fonts/Cocogoosetrial.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/Cocogoosetrial.woff2') format('woff2'),
+    url('./fonts/Cocogoosetrial.woff') format('woff'),
+    url('./fonts/Cocogoosetrial.ttf') format('truetype'),
+    url('./fonts/Cocogoosetrial.svg#Cocogoosetrial') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.lato {
+  font-family: 'Lato', sans-serif;
+}
+
+.cocogoose {
+  font-family: 'Cocogoosetrial', sans-serif;
+}
+
+.navbar {
+  background-color: #d3d3d3;
+}
+
+.background-intro {
+  background: url(./images/background-mobile2.png) no-repeat;
+  background-size: 100%;
+}
+
+.h2-intro {
+  font-size: 23px;
+  color: #ec5242;
+}
+
+.h1-intro {
+  font-size: 42px;
+  color: #ec5242;
+}
+
+.containerpro-1 {
+  padding: 20px;
+  margin-inline: 10px;
+  border: 2px solid #8080804d;
+  background-color: #d3d3d3;
+}
+
+.cocogoose-font {
+  font-family: "cocogoose", sans-serif;
+}
+
+.p-containerpro-1 {
+  font-family: 'Lato', sans-serif;
+}
+
+.p-intro {
+  font-family: 'Lato', sans-serif;
+  font-size: 37px;
+  color: rgb(58, 55, 55);
+}
+
+.about {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.column {
+  background-color: gray;
+  display: flex;
+  flex-direction: row;
+}
+
+.column2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.about-main-programs {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.speaker {
+  width: 100%;
+  height: 100%;
+}
+
+.about-title {
+  color: #ec5242;
+  font-family: 'Lato', sans-serif;
+}
+
+.about-title2 {
+  color: #ec5242;
+  font-style: oblique;
+  font-family: 'Lato', sans-serif;
+}
+
+.about hr {
+  width: 20%;
+  border-top: 1px solid red;
+}
+
+.badges-contenedor {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0;
+}
