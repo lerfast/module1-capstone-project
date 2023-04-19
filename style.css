@@ -29,6 +29,10 @@
   padding-top: 8%;
 }
 
+.offcanvas-title{
+  margin-right: 30%;
+}
+
 .navbar {
   background-color: #f8f9fa;
 }
@@ -76,7 +80,7 @@
     padding-left: calc(var(--bs-gutter-x) * .5);
    
   padding: 20px;
-  margin: 69px 23px 60px 12px;
+  margin: 15px 23px 14px 12px;
 
  
   border: 2px solid #8080804d;
@@ -147,6 +151,7 @@
 
 .about-title {
   color: #ec5242;
+  font-size: 20px;
   font-family: 'Lato', sans-serif;
 }
 
@@ -191,6 +196,11 @@ font-size: 20px;
   font-weight: 500;
     color: var(--black);
     font-size: 30px;
+    margin-top: 2rem;
+}
+
+.margin-text1{
+  margin-left: 10%;
 }
 
 @media only screen and (min-width: 768px) {
@@ -202,6 +212,7 @@ font-size: 20px;
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
+    margin-right: 58px;
     align-items: center;
     text-align: center;
     color: #344563;
@@ -209,10 +220,56 @@ font-size: 20px;
     background-color: #ffff;
   }
 
+  .h2-intro {
+    font-size: 30px;
+    color: #ec5242;
+  }
+
+  .column {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+      height: auto;
+      align-items: center;
+      padding: 17px 38px 45px 12px;
+      margin-left: 10px;
+      padding-bottom: 30px;
+  }
+  
+.tech-icons{
+  width: 120px;
+  height: 120px;
+}
+
+.section-p{
+  font-size: 25px;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  color: #ffff;
+  }
+
+  .h1-intro {
+    font-size: 55px;
+    color: #ec5242;
+  }
+
   .nav-desktop a {
     background-color: #ffff;
     text-decoration: none;
     color: #344563;
+  }
+
+  .margin-text1{
+    margin-left: 13%;
+    
+  }
+
+  .margin-text2{
+    margin-left: 18%;
+    margin-right: 30%;
+    margin-bottom: 5%;
   }
 
   .logo-img2 {
@@ -248,6 +305,22 @@ font-size: 20px;
     color: #344563;
     gap: 3%;
     background-color: black;
+  }
+
+  .nav-desktop2-margin{
+    display: flex;
+    justify-content: flex-end;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 31px;
+    align-items: center;
+    text-align: center;
+    color: #344563;
+    gap: 15%;
+    background-color: black;
+    margin-right: 63px
   }
 
   .nav-desktop2 a {

@@ -1,49 +1,49 @@
 const data = [{
-    name: 'Yochai Benkler',
-    title: 'Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
-    description: 'Benkler studies commons-bades peer production, and published his semnial book The Wealth of Networks in 2006.',
-    image: './images/speaker1.png',
+  name: 'Yochai Benkler',
+  title: 'Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
+  description: 'Benkler studies commons-bades peer production, and published his semnial book The Wealth of Networks in 2006.',
+  image: './images/speaker1.png',
 },
 
 {
-    name: 'SohYeong Noh',
-    title: 'Director of Art Centre Nabi and a board member of CC',
-    description: 'Benkler studies commons-bades peer production, and published his semnial book The Wealth of Networks in 2006.',
-    image: './images/speaker2.png',
-
-},
-
-{
-    name: 'SohYeong Noh',
-    title: 'Director of Art Centre Nabi and a board member of CC',
-    description: 'Benkler studies commons-bades peer production, and published his semnial book The Wealth of Networks in 2006.',
-    image: './images/speaker2.png',
+  name: 'SohYeong Noh',
+  title: 'Director of Art Centre Nabi and a board member of CC',
+  description: 'Benkler studies commons-bades peer production, and published his semnial book The Wealth of Networks in 2006.',
+  image: './images/speaker2.png',
 
 },
 
 {
-    name: 'SohYeong Noh',
-    title: 'Director of Art Centre Nabi and a board member of CC',
-    description: 'Benkler studies commons-bades peer production, and published his semnial book The Wealth of Networks in 2006.',
-    image: './images/speaker2.png',
+  name: 'SohYeong Noh',
+  title: 'Director of Art Centre Nabi and a board member of CC',
+  description: 'Benkler studies commons-bades peer production, and published his semnial book The Wealth of Networks in 2006.',
+  image: './images/speaker2.png',
 
 },
 
 {
-    name: 'SohYeong Noh',
-    title: 'Director of Art Centre Nabi and a board member of CC',
-    description: 'Benkler studies commons-bades peer production, and published his semnial book The Wealth of Networks in 2006.',
-    image: './images/speaker2.png',
+  name: 'SohYeong Noh',
+  title: 'Director of Art Centre Nabi and a board member of CC',
+  description: 'Benkler studies commons-bades peer production, and published his semnial book The Wealth of Networks in 2006.',
+  image: './images/speaker2.png',
 
 },
 
 {
-    name: 'SohYeong Noh',
-    title: 'Director of Art Centre Nabi and a board member of CC',
-    description: 'Benkler studies commons-bades peer production, and published his semnial book The Wealth of Networks in 2006.',
-    image: './images/speaker2.png',
+  name: 'SohYeong Noh',
+  title: 'Director of Art Centre Nabi and a board member of CC',
+  description: 'Benkler studies commons-bades peer production, and published his semnial book The Wealth of Networks in 2006.',
+  image: './images/speaker2.png',
 
-}
+},
+
+{
+  name: 'SohYeong Noh',
+  title: 'Director of Art Centre Nabi and a board member of CC',
+  description: 'Benkler studies commons-bades peer production, and published his semnial book The Wealth of Networks in 2006.',
+  image: './images/speaker2.png',
+
+},
 
 ];
 
@@ -244,4 +244,3 @@ divPopup.innerHTML += `
 
     </div>
   </div>`;
-
