@@ -1,3 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+
 @font-face {
   font-family: 'Cocogoosetrial';
   src: url('./fonts/Cocogoosetrial.eot');
@@ -17,10 +26,11 @@
 
 .cocogoose {
   font-family: 'Cocogoosetrial', sans-serif;
+  padding-top: 8%;
 }
 
 .navbar {
-  background-color: #d3d3d3;
+  background-color: #f8f9fa;
 }
 
 .logo-img {
@@ -30,7 +40,14 @@
 
 .background-intro {
   background: url(./images/background-mobile2.png) no-repeat;
-  background-size: 100%;
+ 
+  background-position: center;
+  
+  background-size: cover;
+  height: 100vh;
+  
+  
+  
 }
 
 .nav-desktop {
@@ -52,10 +69,18 @@
 }
 
 .containerpro-1 {
+  --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+   
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+   
   padding: 20px;
-  margin-inline: 10px;
+  margin: 69px 23px 60px 12px;
+
+ 
   border: 2px solid #8080804d;
-  background-color: #d3d3d3;
+  background-color: #f8f9fa;
 }
 
 .containerpro-2 {
@@ -80,16 +105,23 @@
 }
 
 .about {
-  background-color: black;
+  background-color: rgba(62, 58, 58, 0.686);
   color: white;
   display: flex;
   justify-content: space-between;
 }
 
 .column {
-  background-color: gray;
+  background-color: black;
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+    height: auto;
+    align-items: center;
+    padding: 17px 38px 45px 12px;
+    margin-top: 28px;
+    padding-bottom: 30px;
 }
 
 .column2 {
@@ -132,7 +164,33 @@
 .badges-contenedor {
   font-size: 20px;
   font-weight: bold;
-  margin: 10px 0;
+  margin: 45px 0;
+}
+
+.section-p{
+font-size: 20px;
+}
+
+.about header div{
+  border-bottom: 1px solid #ec5242;
+  width: 100px;
+  margin: -6% 20% 0%  38% ;
+}
+
+.featured-speakers header div{
+  border-bottom: 1px solid #ec5242;
+  width: 100px;
+  margin: -6% 20% 9%  38% ;
+}
+
+.red-bar {
+  
+}
+
+.speakers-p{
+  font-weight: 500;
+    color: var(--black);
+    font-size: 30px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -164,7 +222,12 @@
 
   .background-intro {
     background: url(./images/background-desktop2.png) no-repeat;
-    background-size: 100%;
+    
+  background-position: center;
+  
+  background-size: cover;
+  height: 100vh;
+    
   }
 
   .images-desktop {
