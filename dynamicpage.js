@@ -14,34 +14,34 @@ const data = [{
 },
 
 {
-  name: 'SohYeong Noh',
-  title: 'Director of Art Centre Nabi and a board member of CC',
+  name: 'Lila Tretikov',
+  title: 'Executive Director of the Wikimedia Foundation',
   description: 'Benkler studies commons-bades peer production, and published his semnial book The Wealth of Networks in 2006.',
-  image: './images/speaker2.png',
+  image: './images/speaker3.png',
 
 },
 
 {
-  name: 'SohYeong Noh',
-  title: 'Director of Art Centre Nabi and a board member of CC',
+  name: 'Kilnam Chon',
+  title: 'Web Page programmer',
   description: 'Benkler studies commons-bades peer production, and published his semnial book The Wealth of Networks in 2006.',
-  image: './images/speaker2.png',
+  image: './images/speaker4.png',
 
 },
 
 {
-  name: 'SohYeong Noh',
-  title: 'Director of Art Centre Nabi and a board member of CC',
+  name: 'Julia Leda',
+  title: 'President of Young Pirates of Europe',
   description: 'Benkler studies commons-bades peer production, and published his semnial book The Wealth of Networks in 2006.',
-  image: './images/speaker2.png',
+  image: './images/speaker5.png',
 
 },
 
 {
-  name: 'SohYeong Noh',
-  title: 'Director of Art Centre Nabi and a board member of CC',
+  name: 'Ryan Merkley',
+  title: 'CEO of Creative Commons, ex COO of the Mozilla Foundation',
   description: 'Benkler studies commons-bades peer production, and published his semnial book The Wealth of Networks in 2006.',
-  image: './images/speaker2.png',
+  image: './images/speaker6.png',
 
 },
 
@@ -66,28 +66,26 @@ divPopup.innerHTML += `
   <div class="column2 ">
     <i><img class="speaker" src="${data[0].image}" alt=""></i>
     <div class="speaker-content">
-      <h2>Yochai Benkler</h2>
-      <p class="about-title2">Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School</p>
+      <h2>${data[0].name}</h2>
+      <p class="about-title2">${data[0].title}</p>
       <hr>
-      <p class="about-content">Benkler studies commons-bades peer production, and published his semnial book The
-        Wealth of Networks in 2006.</p>
+      <p class="about-content">${data[0].description}</p>
     </div>
 
   </div>
 
   <div class="column2 ">
-    <i><img class="speaker" src="./images/speaker2.png" alt=""></i>
+    <i><img class="speaker" src="${data[1].image}" alt=""></i>
     <div class="speaker-content">
-      <h2>SohYeong Noh</h2>
-      <p class="about-title2">Director of Art Centre Nabi and a board member of CC </p>
+      <h2>${data[1].name}</h2>
+      <p class="about-title2">${data[1].title} </p>
       <hr>
-      <p class="about-content">Benkler studies commons-bades peer production, and published his semnial book The
-        Wealth of Networks in 2006.</p>
+      <p class="about-content">${data[1].description}</p>
     </div>
 
   </div>
 
-  
+
 
   </div>
 
@@ -103,49 +101,45 @@ divPopup.innerHTML += `
       <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
         <div class="accordion-body">
           <div class="column2 ">
-            <i><img class="speaker" src="./images/speaker3.png" alt=""></i>
+            <i><img class="speaker" src="${data[2].image}" alt=""></i>
             <div class="speaker-content">
-              <h2>Lila Tretikov</h2>
-              <p class="about-title2">Executive Director of the Wikimedia Foundation</p>
+              <h2>${data[2].name}</h2>
+              <p class="about-title2">${data[2].title}</p>
               <hr>
-              <p class="about-content">Benkler studies commons-bades peer production, and published his semnial
-                book The Wealth of Networks in 2006.</p>
+              <p class="about-content">${data[2].description}</p>
             </div>
 
           </div>
 
           <div class="column2 ">
-            <i><img class="speaker" src="./images/speaker4.png" alt=""></i>
+            <i><img class="speaker" src="${data[3].image}" alt=""></i>
             <div class="speaker-content">
-              <h2>Kilnam Chon</h2>
-              <p class="about-title2">Web Page programmer</p>
+              <h2>${data[3].name}</h2>
+              <p class="about-title2">${data[3].title}</p>
               <hr>
-              <p class="about-content">Benkler studies commons-bades peer production, and published his semnial
-                book The Wealth of Networks in 2006.</p>
+              <p class="about-content">${data[3].description}</p>
             </div>
 
           </div>
 
           <div class="column2 ">
-            <i><img class="speaker" src="./images/speaker5.png" alt=""></i>
+            <i><img class="speaker" src="${data[4].image}" alt=""></i>
             <div class="speaker-content">
-              <h2>Julia Leda</h2>
-              <p class="about-title2">President of Young Pirates of Europe</p>
+              <h2>${data[4].name}</h2>
+              <p class="about-title2">${data[4].title}</p>
               <hr>
-              <p class="about-content">Benkler studies commons-bades peer production, and published his semnial
-                book The Wealth of Networks in 2006.</p>
+              <p class="about-content">${data[4].description}</p>
             </div>
 
           </div>
 
           <div class="column2 ">
-            <i><img class="speaker" src="./images/speaker6.png" alt=""></i>
+            <i><img class="speaker" src="${data[5].image}" alt=""></i>
             <div class="speaker-content">
-              <h2>Ryan Merkley</h2>
-              <p class="about-title2">CEO of Creative Commons, ex COO of the Mozilla Foundation</p>
+              <h2>${data[5].name}</h2>
+              <p class="about-title2">${data[5].title}</p>
               <hr>
-              <p class="about-content">Benkler studies commons-bades peer production, and published his semnial
-                book The Wealth of Networks in 2006.</p>
+              <p class="about-content">${data[5].description}</p>
             </div>
 
           </div>
@@ -171,37 +165,34 @@ divPopup.innerHTML += `
 
   <div class="speaker-content1">
     <div class="column2 ">
-      <i><img class="speaker" src="./images/speaker1.png" alt=""></i>
+      <i><img class="speaker" src="${data[0].image}" alt=""></i>
       <div class="speaker-content">
-        <h2>Yochai Benkler</h2>
-        <p class="about-title2">Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School</p>
+        <h2>${data[0].name}</h2>
+        <p class="about-title2">${data[0].title}</p>
         <hr>
-        <p class="about-content">Benkler studies commons-bades peer production, and published his semnial book The
-          Wealth of Networks in 2006.</p>
+        <p class="about-content">${data[0].description}</p>
       </div>
 
     </div>
 
     <div class="column2 ">
-      <i><img class="speaker" src="./images/speaker2.png" alt=""></i>
+      <i><img class="speaker" src="${data[1].image}" alt=""></i>
       <div class="speaker-content">
-        <h2>SohYeong Noh</h2>
-        <p class="about-title2">Director of Art Centre Nabi and a board member of CC </p>
+        <h2>${data[1].name}</h2>
+        <p class="about-title2">${data[1].title} </p>
         <hr>
-        <p class="about-content">Benkler studies commons-bades peer production, and published his semnial book The
-          Wealth of Networks in 2006.</p>
+        <p class="about-content">${data[1].description}</p>
       </div>
 
     </div>
 
     <div class="column2 ">
-      <i><img class="speaker" src="./images/speaker3.png" alt=""></i>
+      <i><img class="speaker" src="${data[2].image}" alt=""></i>
       <div class="speaker-content">
-        <h2>Lila Tretikov</h2>
-        <p class="about-title2">Executive Director of the Wikimedia Foundation</p>
+        <h2>${data[2].name}</h2>
+        <p class="about-title2">${data[2].title}</p>
         <hr>
-        <p class="about-content">Benkler studies commons-bades peer production, and published his semnial book The
-          Wealth of Networks in 2006.</p>
+        <p class="about-content">${data[2].description}</p>
       </div>
 
     </div>
@@ -209,37 +200,34 @@ divPopup.innerHTML += `
 
   <div class="speaker-content2">
     <div class="column2 ">
-      <i><img class="speaker" src="./images/speaker4.png" alt=""></i>
+      <i><img class="speaker" src="${data[3].image}" alt=""></i>
       <div class="speaker-content">
-        <h2>Kilnam Chon</h2>
-        <p class="about-title2">Web Page programmer</p>
+        <h2>${data[3].name}</h2>
+        <p class="about-title2">${data[3].title}</p>
         <hr>
-        <p class="about-content">Benkler studies commons-bades peer production, and published his semnial book The
-          Wealth of Networks in 2006.</p>
+        <p class="about-content">${data[3].description}</p>
       </div>
 
     </div>
 
     <div class="column2 ">
-      <i><img class="speaker" src="./images/speaker5.png" alt=""></i>
+      <i><img class="speaker" src="${data[4].image}" alt=""></i>
       <div class="speaker-content">
-        <h2>Julia Leda</h2>
-        <p class="about-title2">President of Young Pirates of Europe</p>
+        <h2>${data[4].name}</h2>
+        <p class="about-title2">${data[4].title}</p>
         <hr>
-        <p class="about-content">Benkler studies commons-bades peer production, and published his semnial book The
-          Wealth of Networks in 2006.</p>
+        <p class="about-content">${data[4].description}</p>
       </div>
 
     </div>
 
     <div class="column2 ">
-      <i><img class="speaker" src="./images/speaker6.png" alt=""></i>
+      <i><img class="speaker" src="${data[5].image}" alt=""></i>
       <div class="speaker-content">
-        <h2>Ryan Merkley</h2>
-        <p class="about-title2">CEO of Creative Commons, ex COO of the Mozilla Foundation</p>
+        <h2>${data[5].name}</h2>
+        <p class="about-title2">${data[5].title}</p>
         <hr>
-        <p class="about-content">Benkler studies commons-bades peer production, and published his semnial book The
-          Wealth of Networks in 2006.</p>
+        <p class="about-content">${data[5].description}</p>
       </div>
 
     </div>

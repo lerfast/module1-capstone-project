@@ -4,9 +4,6 @@
   box-sizing: border-box;
 }
 
-
-
-
 @font-face {
   font-family: 'Cocogoosetrial';
   src: url('./fonts/Cocogoosetrial.eot');
@@ -29,7 +26,7 @@
   padding-top: 8%;
 }
 
-.offcanvas-title{
+.offcanvas-title {
   margin-right: 30%;
 }
 
@@ -42,16 +39,16 @@
   height: 100%;
 }
 
+.logo-img3 {
+  width: 100%;
+  height: 100%;
+}
+
 .background-intro {
   background: url(./images/background-mobile2.png) no-repeat;
- 
   background-position: center;
-  
   background-size: cover;
   height: 100vh;
-  
-  
-  
 }
 
 .nav-desktop {
@@ -74,15 +71,10 @@
 
 .containerpro-1 {
   --bs-gutter-x: 1.5rem;
-    --bs-gutter-y: 0;
-   
-    padding-right: calc(var(--bs-gutter-x) * .5);
-    padding-left: calc(var(--bs-gutter-x) * .5);
-   
+  --bs-gutter-y: 0;
+
   padding: 20px;
   margin: 15px 23px 14px 12px;
-
- 
   border: 2px solid #8080804d;
   background-color: #f8f9fa;
 }
@@ -121,11 +113,11 @@
   flex-direction: row;
   justify-content: space-around;
   width: 100%;
-    height: auto;
-    align-items: center;
-    padding: 17px 38px 45px 12px;
-    margin-top: 28px;
-    padding-bottom: 30px;
+  height: auto;
+  align-items: center;
+  padding: 17px 38px 45px 12px;
+  margin-top: 28px;
+  padding-bottom: 30px;
 }
 
 .column2 {
@@ -172,34 +164,30 @@
   margin: 45px 0;
 }
 
-.section-p{
-font-size: 20px;
+.section-p {
+  font-size: 20px;
 }
 
-.about header div{
+.about header div {
   border-bottom: 1px solid #ec5242;
   width: 100px;
-  margin: -6% 20% 0%  38% ;
+  margin: -6% 20% 0%  38%;
 }
 
-.featured-speakers header div{
+.featured-speakers header div {
   border-bottom: 1px solid #ec5242;
   width: 100px;
-  margin: -6% 20% 9%  38% ;
+  margin: -6% 20% 9%  38%;
 }
 
-.red-bar {
-  
-}
-
-.speakers-p{
+.speakers-p {
   font-weight: 500;
-    color: var(--black);
-    font-size: 30px;
-    margin-top: 2rem;
+  color: var(--black);
+  font-size: 30px;
+  margin-top: 2rem;
 }
 
-.margin-text1{
+.margin-text1 {
   margin-left: 10%;
 }
 
@@ -231,23 +219,23 @@ font-size: 20px;
     flex-direction: column;
     justify-content: space-around;
     width: 100%;
-      height: auto;
-      align-items: center;
-      padding: 17px 38px 45px 12px;
-      margin-left: 10px;
-      padding-bottom: 30px;
+    height: auto;
+    align-items: center;
+    padding: 17px 38px 45px 12px;
+    margin-left: 10px;
+    padding-bottom: 30px;
   }
-  
-.tech-icons{
-  width: 120px;
-  height: 120px;
-}
 
-.section-p{
-  font-size: 25px;
-  margin-bottom: 2rem;
-  margin-top: 1rem;
-  color: #ffff;
+  .tech-icons {
+    width: 120px;
+    height: 120px;
+  }
+
+  .section-p {
+    font-size: 25px;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    color: #ffff;
   }
 
   .h1-intro {
@@ -261,14 +249,19 @@ font-size: 20px;
     color: #344563;
   }
 
-  .margin-text1{
+  .margin-text1 {
     margin-left: 13%;
-    
   }
 
-  .margin-text2{
+  .margin-text2 {
     margin-left: 18%;
     margin-right: 30%;
+    margin-bottom: 5%;
+  }
+
+  .about-margin-text2 {
+    margin-left: 18%;
+    margin-right: 10%;
     margin-bottom: 5%;
   }
 
@@ -279,12 +272,9 @@ font-size: 20px;
 
   .background-intro {
     background: url(./images/background-desktop2.png) no-repeat;
-    
-  background-position: center;
-  
-  background-size: cover;
-  height: 100vh;
-    
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
   }
 
   .images-desktop {
@@ -307,7 +297,7 @@ font-size: 20px;
     background-color: black;
   }
 
-  .nav-desktop2-margin{
+  .nav-desktop2-margin {
     display: flex;
     justify-content: flex-end;
     font-family: "Poppins", sans-serif;
@@ -320,7 +310,7 @@ font-size: 20px;
     color: #344563;
     gap: 15%;
     background-color: black;
-    margin-right: 63px
+    margin-right: 63px;
   }
 
   .nav-desktop2 a {
@@ -359,7 +349,7 @@ font-size: 20px;
     display: none;
   }
 
-  .more-desktop{
+  .more-desktop {
     display: none;
   }
 }
