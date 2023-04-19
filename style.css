@@ -36,6 +36,7 @@
 .nav-desktop {
   display: none;
 }
+
 .nav-desktop2 {
   display: none;
 }
@@ -61,7 +62,7 @@
   padding: 20px;
   margin-inline: 10px;
   border: 2px solid #8080804d;
-background-color: #ffff;
+  background-color: #ffff;
 }
 
 .cocogoose-font {
@@ -96,10 +97,11 @@ background-color: #ffff;
   flex-direction: row;
 }
 
-.p-intro-section{
+.p-intro-section {
   font-family: 'Lato', sans-serif;
   font-size: 37px;
 }
+
 .about-main-programs {
   display: flex;
   flex-direction: column;
@@ -122,8 +124,6 @@ background-color: #ffff;
   font-family: 'Lato', sans-serif;
 }
 
-
-
 .hr {
   width: 20%;
   border-top: 1px solid red;
@@ -135,7 +135,7 @@ background-color: #ffff;
   margin: 10px 0;
 }
 
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 768px) {
   .nav-desktop {
     display: flex;
     justify-content: flex-end;
@@ -149,63 +149,77 @@ background-color: #ffff;
     color: #344563;
     gap: 3%;
     background-color: #ffff;
-}
-.nav-desktop a {
-  background-color: #ffff;
-  text-decoration: none;
-  color: #344563;
- 
+  }
+
+  .nav-desktop a {
+    background-color: #ffff;
+    text-decoration: none;
+    color: #344563;
+  }
+
+  .logo-img2 {
+    width: 100%;
+    height: 100%;
+  }
+
+  .background-intro {
+    background: url(./images/background-desktop2.png) no-repeat;
+    background-size: 100%;
+  }
+
+  .images-desktop {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .nav-desktop2 {
+    display: flex;
+    justify-content: flex-end;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+    color: #344563;
+    gap: 3%;
+    background-color: black;
+  }
+
+  .nav-desktop2 a {
+    text-decoration: none;
+    color: #ffff;
+  }
+
+  .hidding-nav {
+    display: none;
+  }
+
+  .about-main-programs {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .accordion2 {
+    display: none;
+  }
+
+  .badges-contenedor {
+    display: none;
+  }
+
+  .logo-img {
+    display: none;
+  }
 }
 
-.background-intro {
-  background: url(./images/background-desktop2.png) no-repeat;
-  background-size: 100%;
-}
+@media only screen and (max-width: 768px) {
+  .hidding-p {
+    display: none;
+  }
 
-.nav-desktop2 {
-  display: flex;
-  justify-content: flex-end;
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
-  align-items: center;
-  text-align: center;
-  color: #344563;
-  gap: 3%;
-  background-color: black;
-}
-.nav-desktop2 a {
-
-text-decoration: none;
-color: #ffff;
-
-}
-
-.hidding-nav {
-  display: none;
-}
-
-.about-main-programs {
-  display: flex;
-  flex-direction: row;
-  
-}
-
-.accordion2{
-  display: none;
-}
-
-.badges-contenedor{
-  display: none;
-}
-
-}
-
-@media only screen and (max-width: 768px){
-
-.hidding-p{
-  display: none;
-}
+  .logo-img2 {
+    display: none;
+  }
 }
