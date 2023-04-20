@@ -232,3 +232,20 @@ divPopup.innerHTML += `
 
     </div>
   </div>`;
+
+const speakersContainer = document.querySelectorAll('.speakers');
+for (let i = 0; i < data.length; i += 1) {
+  const speaker = data[i];
+  const speakerDiv = document.createElement('div');
+  speakerDiv.classList.add('column2');
+  speakerDiv.innerHTML = `
+    <i><img class="speaker" src="${speaker.image}" alt=""></i>
+    <div class="speaker-content">
+      <h2>${speaker.name}</h2>
+      <p class="about-title2">${speaker.title}</p>
+      <hr>
+      <p class="about-content">${speaker.description}</p>
+    </div>
+  `;
+  speakersContainer.forEach((container) => container.appendChild(speakerDiv.cloneNode(true)));
+}
