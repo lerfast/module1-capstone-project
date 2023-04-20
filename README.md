@@ -72,13 +72,14 @@ All of above can be viewed in mobile and desktop responsively.
 
 ### Live Demo <a name="live-demo"></a>
 
-- https://lerfast.github.io/module1-capstone-project/
+
+- <a href="https://lerfast.github.io/module1-capstone-project/">Live Presentation Here!!!</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Video Presentation <a name="video-presentation"></a>
 
-- Comming zoom!!!
+- <a href="https://www.loom.com/share/ca11d68b33d0495380808ee0698234c0">Video Presentation Here!!!</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
