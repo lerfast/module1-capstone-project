@@ -22,7 +22,6 @@
 }
 
 .cocogoose {
-  
   padding-top: 8%;
 }
 
@@ -65,11 +64,10 @@
   color: #ec5242;
 }
 
-#title{
-
+#title {
   background: url(./images/picture2.png);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .h1-intro {
@@ -140,11 +138,11 @@
   flex-direction: row;
 }
 
-.accordion-item{
+.accordion-item {
   margin-left: 20px;
   margin-right: 20px;
   margin-top: 50px;
-    margin-bottom: 50px
+  margin-bottom: 50px;
 }
 
 .p-intro-section {
@@ -163,7 +161,7 @@
   height: 194px;
 }
 
-.speaker-content{
+.speaker-content {
   margin-left: 19px;
 }
 
@@ -179,12 +177,11 @@
   font-family: 'Lato', sans-serif;
 }
 
-.main-title{
+.main-title {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 21px;
-
 }
 
 /* hr {
@@ -197,7 +194,7 @@
 .hr2 {
   border: 2px solid orangered;
   margin-top: 2px;
-  width:150px;
+  width: 150px;
   align-items: center;
 }
 
@@ -213,11 +210,9 @@
   margin-bottom: 5px;
 }
 
-.images-desktop2{
+.images-desktop2 {
   margin-top: 1rem;
 }
-
-
 
 .images-desktop {
   display: flex;
@@ -259,13 +254,15 @@
     gap: 3%;
     background-color: #ffff;
   }
+
   .mobile-img {
     display: none;
   }
 
-  .images-desktop2{
+  .images-desktop2 {
     margin-left: 1rem;
   }
+
   .h2-intro {
     font-size: 30px;
     color: #ec5242;
@@ -413,14 +410,7 @@
     background-color: #272a31;
   }
 
-  .footer-first2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 5%;
-    margin-top: 83px;
-    background-color: #272a31;
-  }
+
 
   .footer-first h3 {
     font-weight: 400;
@@ -518,15 +508,18 @@
     margin-top: 29px;
   }
 
- .footer-first2{
-  display: none;
- }
+  .footer-first2 {
+    display: none;
+  }
 
- .more-desktop {
-  margin-right: 200px;
-  margin-left: 200px;
-}
+  .more-desktop {
+    margin-right: 200px;
+    margin-left: 200px;
+  }
 
+  .join-button {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -541,6 +534,7 @@
   .footer-img {
     display: none;
   }
+
   .footer-second2 img {
     width: 30%;
     height: 10%;
@@ -607,12 +601,22 @@
   .footer {
     display: none;
   }
-  
+
   .speaker {
     width: 172px;
     height: 100%;
   }
 
+  .hidding-tech-mobile {
+    display: none;
+  }
 
-
+  .join-button {
+    margin-top: 30px;
+    width: 329px;
+    height: 68px;
+    color: #fff;
+    background-color: #ec5242;
+    margin-bottom: 30px;
+  }
 }
