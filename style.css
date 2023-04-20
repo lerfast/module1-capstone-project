@@ -83,7 +83,7 @@
   padding: 20px;
   margin: 15px 23px 14px 12px;
   border: 2px solid #8080804d;
-  background-color: #f8f9fa;
+  background-color: #cfd1d2;
 }
 
 .containerpro-2 {
@@ -135,7 +135,7 @@
 
 .column2 {
   display: flex;
-  flex-direction: row;
+  margin-top: 100px;
 }
 
 .accordion-item {
@@ -184,12 +184,10 @@
   margin-bottom: 21px;
 }
 
-/* hr {
-  margin-top: 9px;
-    margin-bottom: 10px;
-    width: 30px;
-    border: 1px solid #ec5242;
-} */
+hr {
+  width: 30px;
+  border: 1px solid #ec5242;
+}
 
 .hr2 {
   border: 2px solid orangered;
@@ -239,6 +237,16 @@
 }
 
 @media only screen and (min-width: 768px) {
+  .column2 {
+    display: flex;
+    width: 40%;
+    margin-left: 100px;
+  }
+
+  .accordion {
+    display: none;
+  }
+
   .nav-desktop {
     display: flex;
     justify-content: flex-end;
@@ -253,6 +261,11 @@
     color: #344563;
     gap: 3%;
     background-color: #ffff;
+  }
+
+  .speakers-ul {
+    display: flex;
+    flex-wrap: wrap;
   }
 
   .mobile-img {
@@ -303,6 +316,7 @@
   .h1-intro {
     font-size: 55px;
     color: #ec5242;
+    margin-right: 19%;
   }
 
   .nav-desktop a {
@@ -616,5 +630,10 @@
     color: #fff;
     background-color: #ec5242;
     margin-bottom: 30px;
+  }
+
+  .column2 {
+    display: flex;
+    margin-right: 20px;
   }
 }
