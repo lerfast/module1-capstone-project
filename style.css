@@ -608,6 +608,10 @@
     display: none;
   }
   
+  .speaker {
+    width: 172px;
+    height: 100%;
+  }
 
 
 
