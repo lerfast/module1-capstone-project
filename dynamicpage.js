@@ -23,7 +23,7 @@ const data = [{
 
 {
   name: 'Kilnam Chon',
-  title: 'Web Page programmer',
+  title: 'Web Page programmer of Google Inc., Apple Inc., Amazon Inc., Netflix Inc.',
   description: 'Benkler studies commons-bades peer production, and published his semnial book The Wealth of Networks in 2006.',
   image: './images/speaker4.png',
 
@@ -31,7 +31,7 @@ const data = [{
 
 {
   name: 'Julia Leda',
-  title: 'President of Young Pirates of Europe',
+  title: 'President of Young Pirates of Europe, National Security Expert',
   description: 'Benkler studies commons-bades peer production, and published his semnial book The Wealth of Networks in 2006.',
   image: './images/speaker5.png',
 
@@ -51,10 +51,11 @@ const divPopup = document.getElementById('featured-speakers');
 divPopup.innerHTML += `
 <div class="container">
 
-<hader>
-  <p class="text-center speakers-p"><strong>Featured Speakers </strong> </p> <br>
-  <div class="red-bar"></div>
-  </header>
+<div class="main-title">
+        <p class="text-center speakers-p"><strong>Featured Speakers</strong><br></p>
+        <hr class="hr2">
+      </div>
+
 
 
 
@@ -156,9 +157,7 @@ divPopup.innerHTML += `
 
 </div>
 
-<div class="badges-contenedor text-center">
-<span class="badge  text-bg-danger">Join to our 2023 program, right now!!!</span>
-</div>
+
 
 <div class="more-desktop">
 <div class="container text-enter about-main-programs">

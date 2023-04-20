@@ -22,7 +22,7 @@
 }
 
 .cocogoose {
-  font-family: 'Cocogoosetrial', sans-serif;
+  
   padding-top: 8%;
 }
 
@@ -60,11 +60,20 @@
 }
 
 .h2-intro {
+  font-family: 'Lato', sans-serif;
   font-size: 23px;
   color: #ec5242;
 }
 
+#title{
+
+  background: url(./images/picture2.png);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .h1-intro {
+  font-family: 'Cocogoosetrial', sans-serif;
   font-size: 42px;
   color: #ec5242;
 }
@@ -95,9 +104,15 @@
 }
 
 .p-intro {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Cocogoosetrial', sans-serif;
   font-size: 37px;
-  color: rgb(58, 55, 55);
+  color: #6f7073;
+}
+
+.p-intro2 {
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  color: #6f7073;
 }
 
 .about {
@@ -125,6 +140,13 @@
   flex-direction: row;
 }
 
+.accordion-item{
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 50px;
+    margin-bottom: 50px
+}
+
 .p-intro-section {
   font-family: 'Lato', sans-serif;
   font-size: 37px;
@@ -137,8 +159,12 @@
 }
 
 .speaker {
-  width: 100%;
-  height: 100%;
+  width: 172px;
+  height: 194px;
+}
+
+.speaker-content{
+  margin-left: 19px;
 }
 
 .about-title {
@@ -153,9 +179,26 @@
   font-family: 'Lato', sans-serif;
 }
 
-.hr {
-  width: 20%;
-  border-top: 1px solid red;
+.main-title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 21px;
+
+}
+
+/* hr {
+  margin-top: 9px;
+    margin-bottom: 10px;
+    width: 30px;
+    border: 1px solid #ec5242;
+} */
+
+.hr2 {
+  border: 2px solid orangered;
+  margin-top: 2px;
+  width:150px;
+  align-items: center;
 }
 
 .badges-contenedor {
@@ -165,13 +208,21 @@
 }
 
 .section-p {
-  font-size: 20px;
+  font-size: 34px;
+  font-family: 'Lato', sans-serif;
+  margin-bottom: 5px;
 }
 
-.about header div {
-  border-bottom: 1px solid #ec5242;
-  width: 100px;
-  margin: -6% 20% 0%  38%;
+.images-desktop2{
+  margin-top: 1rem;
+}
+
+
+
+.images-desktop {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .featured-speakers header div {
@@ -185,6 +236,7 @@
   color: var(--black);
   font-size: 30px;
   margin-top: 2rem;
+  margin-bottom: 5px;
 }
 
 .margin-text1 {
@@ -207,7 +259,13 @@
     gap: 3%;
     background-color: #ffff;
   }
+  .mobile-img {
+    display: none;
+  }
 
+  .images-desktop2{
+    margin-left: 1rem;
+  }
   .h2-intro {
     font-size: 30px;
     color: #ec5242;
@@ -232,9 +290,16 @@
   }
 
   .section-p {
-    font-size: 25px;
-    margin-bottom: 2rem;
+    font-size: 34px;
+    margin-bottom: 1rem;
     margin-top: 1rem;
+    color: #ffff;
+  }
+
+  .section-p2 {
+    font-size: 34px;
+    margin-bottom: 1rem;
+    margin-top: -68px;
     color: #ffff;
   }
 
@@ -338,11 +403,197 @@
   .logo-img {
     display: none;
   }
+
+  .footer-first {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+    margin-top: 83px;
+    background-color: #272a31;
+  }
+
+  .footer-first2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+    margin-top: 83px;
+    background-color: #272a31;
+  }
+
+  .footer-first h3 {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.01em;
+    color: #d3d3d3;
+    margin-top: -28px;
+  }
+
+  .footer-first2 h3 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.01em;
+    color: #fff;
+  }
+
+  .sponsor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+
+  .sponsor2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+
+  .sponsor img {
+    margin: 6px 9px;
+  }
+
+  .sponsor2 img {
+    margin: 6px 9px;
+  }
+
+  .footer-second {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 3%;
+    background-color: #f8f8f8;
+  }
+
+  .footer-second2 {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 3%;
+    background-color: #272a31;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 80px;
+  }
+
+  .footer-second2 p {
+    width: 52%;
+    height: 10%;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 13px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.01em;
+    color: #fff;
+    margin: 0 1%;
+  }
+
+  .footer-second div {
+    width: 61%;
+  }
+
+  .footer-second2 div {
+    width: 61%;
+  }
+
+  .footer-second img {
+    width: 30%;
+    height: 10%;
+    margin-top: 29px;
+  }
+
+  .footer-second2 img {
+    width: 30%;
+    height: 10%;
+    margin-top: 29px;
+  }
+
+ .footer-first2{
+  display: none;
+ }
+
+ .more-desktop {
+  margin-right: 200px;
+  margin-left: 200px;
+}
+
 }
 
 @media only screen and (max-width: 768px) {
   .hidding-p {
     display: none;
+  }
+
+  #desktop-p {
+    display: none;
+  }
+
+  .footer-img {
+    display: none;
+  }
+  .footer-second2 img {
+    width: 30%;
+    height: 10%;
+  }
+
+  .footer-first2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+    background-color: #272a31;
+    margin-top: 80px;
+  }
+
+  .sponsor2 img {
+    margin: 6px 9px;
+  }
+
+  .footer-first2 h3 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.01em;
+    color: #fff;
+  }
+
+  .sponsor2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+
+  .footer-second2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 3%;
+    background-color: #fff;
+  }
+
+  .footer-second2 p {
+    width: 30%;
+    height: 10%;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 13px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.01em;
+    color: #272a31;
   }
 
   .logo-img2 {
@@ -352,4 +603,12 @@
   .more-desktop {
     display: none;
   }
+
+  .footer {
+    display: none;
+  }
+  
+
+
+
 }
