@@ -72,7 +72,7 @@ All of above can be viewed in mobile and desktop responsively.
 
 ### Live Demo <a name="live-demo"></a>
 
-- Comming soon!!!
+- https://lerfast.github.io/module1-capstone-project/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
