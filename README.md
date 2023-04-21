@@ -1,37 +1,18 @@
-<a name="readme-top"></a>
+<a name="My First Capstone Project"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
 
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-After you're finished please remove all the comments and instructions!
--->
 
 <div align="center">
 
-  <img src="./vectors/luis-logo.png" alt="logo" width="140"  height="auto" />
+  <img src="./images/luis-logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>My Portfolio</b></h3>
+  <h3><b>My First Capstone Project</b></h3>
 
 </div>
 
-<!-- TABLE OF CONTENTS -->
+
+
 
 # 📗 Table of Contents
 
@@ -39,7 +20,9 @@ After you're finished please remove all the comments and instructions!
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+    - [Future Features](#future-features)
   - [🚀 Live Demo](#live-demo)
+  - [🚀 Video Presentation](#video-presentation)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -55,100 +38,92 @@ After you're finished please remove all the comments and instructions!
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
 
-# 📖 My Portfolio <a name="about-project"></a>
+# 📖 **My First Capstone Project** <a name="about-project"></a>
 
-> Hello Microvers, I created it using HTML, CSS
+This is a project that build with the checking tool linter, language HTML/CSS, Bootstrap and JavaScript to have header, footer, feature speakers in dynamic HTML, home and about page, etc.
 
-## 🛠 Built With <a name="built-with"></a>
 
-1-HTML.
-2-CSS.
-3-Liners.
+## 🛠 Built With <a name="built-with">VS Code</a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">HTML</a></li>
-    <li><a href="https://reactjs.org/">CSS</a></li>
-  </ul>
-</details>
-
-<!-- Features -->
+GitHub/Git, VS Code, HTML/CSS, Linter, JavaScript, Bootstrap
 
 ### Key Features <a name="key-features"></a>
 
--Added index.html file.
--Added style.css file.
+- Header & Footer
+- Home Page
+- About Page
+- Feature Speakers with dynamic HTML
+
+
+All of above can be viewed in mobile and desktop responsively.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
+### Future Features <a name="future-features"></a>
 
-Comming soon!!!
+- Other pages
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- GETTING STARTED -->
+
+### Live Demo <a name="live-demo"></a>
+
+
+- <a href="https://lerfast.github.io/module1-capstone-project/">Live Presentation Here!!!</a>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Video Presentation <a name="video-presentation"></a>
+
+- <a href="https://www.loom.com/share/ca11d68b33d0495380808ee0698234c0">Video Presentation Here!!!</a>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-It Will be great for you and your friends!!!
 
-To get a local copy up and running, follow these steps.
+To get a local copy up and running, follow these steps below.
 
 ### Prerequisites
 
-1-Web browser.
-2-Code Editor.
-3.Git-smc.
+In order to run this project you need:
+
+Clone the repository using git, and open it with VS code.
+
+So make sure you have VS code installed beforehead, you call install VS code through https://code.visualstudio.com/download.
 
 ### Setup
 
-Clone this repository to your desired folder:
+Clone this repository to your desired folder in your laptop:
 
-Run this commands:
+  cd "your-folder-name"
+  git clone git@github.com:https://github.com/lerfast/module1-capstone-project.git
 
-```sh
-  cd my-folder
-  git clone https://github.com/lerfast/my-new-blog.git
-```
-
-### Install
-
-Install this project with:
-
-Run command:
-
-```sh
-  cd my-project
-  npm install
-```
 
 ### Usage
 
-To run the project, execute the following command:
+To open the project, you can:
+- Use your prefered explorer and open the index.html file. 
+- You can right click the index.html file to open in the live server with the localhost.
+- Check live demo: <a href="#live-demo">live demo</a>
 
-Open index.html using live server extension.
 
-### Run tests
-
-Comming soon!!!
 
 ### Deployment
 
-Comming soon!!!
+You can deploy this project using VS Code terminal with using related command.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- AUTHORS -->
 
-## 👥 Authors <a name="authors"></a>
+
+## 👥 Author <a name="author"></a>
+
 
 👤 Luis Emilio Rojas
 
@@ -158,45 +133,48 @@ Comming soon!!!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES -->
 
-## 🔭 Future Features <a name="future-features"></a>
-
-- [ ] Add Header.
-- [ ] Add more styles.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
-Contributions, issues, and feature requests are welcome!
+Contributions, issues, and feature requests are welcome! 
 
-Feel free to check the [issues page](../../issues/).
+If you like to contribute, report issues, or request feature(s), please contact me through one of the above media link:)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project just give it a star ⭐
+If you like this project please star this project to show your support, thank you for your support!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ACKNOWLEDGEMENTS -->
+
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse.
-
+I would like to thank Cindy Shin, the author of the original design, provides such fantastic creative common's design with Creative Common License from Behance.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LICENSE -->
+
+## ❓ FAQ <a name="faq"></a>
+
+- Is it difficult?
+
+  - It is common difficult for the setup, but do not give up. Once you get it, you would feel great!
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+- Why linter?
+
+  - It is pretty helpful for your project. For this one, stylelint helps me to style the style.css file better.</a>)</p>
 
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+
